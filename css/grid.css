@@ -1,0 +1,64 @@
+#wrapper
+{
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "title"
+    "about"
+    "songli"
+    "contact"
+    "footer"
+    
+}
+
+/* Head */
+#nav
+{
+    grid-area: nav;
+    padding: 30px;
+     
+}
+#title
+{
+    grid-area: title;
+    padding: 50px;
+       
+     
+}
+
+/* Body */
+#about
+{
+    grid-area: about;
+    padding: 400px;
+       
+     
+}
+#songli
+{
+    grid-area: songli;
+    padding: 360px;
+       
+     
+}
+#contact
+{
+    grid-area: contact;
+    padding: 350px;
+       
+     
+}
+
+/* Footer */
+#footer
+{
+    grid-area: footer;
+    padding: 100px;
+       
+     
+}
+
+
+
+
+
